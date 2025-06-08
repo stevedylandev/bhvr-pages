@@ -44,6 +44,7 @@ jobs:
         env:
           # Set the base URL for GitHub Pages
           # Replace 'your-repo-name' with actual values
+          VITE_BASE_URL: /bhvr-pages/
           VITE_SERVER_URL: https://bhvr-site-server.stevedsimkins.workers.dev
 
       - name: Setup Pages
